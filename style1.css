@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #adc262;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    text-transform: capitalize;
+}
+nav button{
+    padding: 0.6rem;
+    border-radius: 20px;
+    background-color: #adc262;
+    border: #2a320b solid 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+   display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    padding: 2rem;
+}
+main img{
+    
+    display: flex;
+   
+}
+main h1{
+    font-size: 4rem;
+    color: #adc262;
+}
+main h2{
+    font-size: 2rem;
+    color: #3b4511;
+    font-weight: 150px;
+}
+main p{
+    text-align: justify;
+}
+
+main button{
+    width: 100%;
+    margin-bottom: 0.2rem;
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+main  button :nth-child(1){
+    background-color: #56690f;
+    color: white;
+}
+main button :nth-child(2){
+    background-color: transparent;
+    border: 1px solid lightgreen;
+    transition: all 0.9s; 
+    
+}
+main button :nth-child(2) :hover{
+    background-color: #85a01a;
+    color: white;
+}
+
+.star-section{
+    width: 10%;
+    background-color: #3b4511;
+    height: 1.6px;
+    border: none;
+    border-radius: 10PX;
+    position: relative;
+    margin: auto;
+}
+.star{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height: 20px;
+    width: 20px;
+    background-color: gold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.cards{
+    display: flex;
+    margin: 2rem auto 2rem auto;
+    gap: 2rem;
+}
+.card{
+border: 1px solid green;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1.5rem ;
+border-radius: 10px;
+}
+.card, p{
+   width: 60%;
+   text-align: center;
+   margin: auto;
+   letter-spacing: 1px;
+   bottom: 2px;
+}
+.card img{
+    border: 1px, solid, rgb(0, 0, 0);
+    padding: 0.6rem;
+    border-radius: 50%;
+    margin-top: -4rem;
+}
+.card button{
+    padding: 0.6rem;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3px;
+
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(163, 106, 86);
+    color: white;
+    margin-top: 5px;
+  }
